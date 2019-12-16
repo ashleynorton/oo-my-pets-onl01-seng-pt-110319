@@ -1,5 +1,5 @@
 class Owner
-  attr_reader :name, :species
+  attr_reader :name, :species, :cat 
   
   @@all = [] 
   @@count = 0 
@@ -29,7 +29,7 @@ class Owner
   end 
   
   def cats 
-    
+    cat.all 
   end 
   
   
