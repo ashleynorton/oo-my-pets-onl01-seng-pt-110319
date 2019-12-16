@@ -61,8 +61,8 @@ class Owner
   end 
   
   def sell_pets 
-    cat.all.clear 
-    dog.all.clear 
+    cat = Cat.all.clear 
+    dog = Dog.all.clear 
   end 
 end
 
