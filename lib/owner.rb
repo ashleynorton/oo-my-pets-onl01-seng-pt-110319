@@ -59,7 +59,19 @@ class Owner
       cat.mood = "happy"
     }
   end 
+  
+  def sell_pets 
+    self.cats = nil 
+    self.dogs = nil 
+  end 
 end
+
+
+
+
+
+
+
 
 
 
