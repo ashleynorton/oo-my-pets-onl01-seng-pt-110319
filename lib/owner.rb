@@ -70,6 +70,8 @@ class Owner
       cat.mood = "nervous"
     }
   end 
+  
+  def list_pets
 end
 
 
