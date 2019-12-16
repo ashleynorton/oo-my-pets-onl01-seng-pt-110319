@@ -49,7 +49,7 @@ class Owner
   end 
   
   def walk_dogs 
-    self.buy_dog(name).mood 
+    self.buy_dog(name).mood == "happy"
   end 
 end
 
