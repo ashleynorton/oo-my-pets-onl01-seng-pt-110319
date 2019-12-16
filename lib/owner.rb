@@ -50,7 +50,7 @@ class Owner
   
   def walk_dogs 
     mood = (self.buy_dog(name).mood = "happy")
-    mood
+    return mood
   end 
 end
 
