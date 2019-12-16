@@ -53,6 +53,12 @@ class Owner
       dog.mood = "happy"
     }
   end 
+  
+  def feed_cats
+    Cat.all.select { |cat|
+      cat.mood = "happy"
+    }
+  end 
 end
 
 
