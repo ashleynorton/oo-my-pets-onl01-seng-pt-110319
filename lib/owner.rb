@@ -27,4 +27,12 @@ class Owner
     self.all.clear
     @@count =  0 
   end 
+  
+  def cats 
+    
+  end 
+  
+  
+  
+  
 end
