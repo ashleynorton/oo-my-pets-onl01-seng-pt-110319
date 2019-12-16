@@ -49,7 +49,8 @@ class Owner
   end 
   
   def walk_dogs 
-    self.buy_dog(name).mood == "happy"
+    binding.pry 
+    self.buy_dog(name).mood 
   end 
 end
 
