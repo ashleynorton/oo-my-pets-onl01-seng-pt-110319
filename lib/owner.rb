@@ -29,9 +29,7 @@ class Owner
     @@count =  0 
   end 
   
-  def cats 
-    self.cat.all 
-  end 
+ 
   
   
   
